@@ -1,0 +1,76 @@
+
+@font-face {
+  font-family: 'Rudaw-Bold';
+  src: url('Rudaw-Bold.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  padding:0px;
+  margin:0px;
+}
+body {
+  padding:0px;
+  background: url('pshta.jpg') no-repeat;
+}
+p {
+  font-family: 'Rudaw-Bold';
+  color:black;
+  text-align: right;
+}
+h1 {
+  font-family: 'Rudaw-Bold';
+  color:rgb(15, 232, 240);
+  padding:0px;
+  margin:0px;
+  font-size: 200%;
+  mouse:focus;
+}
+.header {
+  background-color: black;
+  opacity: 0.6;
+  padding: 20px;
+  text-align: center;
+  margin: 0px;
+}
+nav ul {
+  padding:0px;
+  margin:0px;
+}
+nav ul li {
+  display:inline-block;
+  margin:5px;
+  font-size:21px;
+  padding:0px;
+  cursor: pointer;
+}
+nav {
+  padding:0px;
+  color: aqua;
+  background-color: brown;
+  opacity: 0.5;
+  text-align: center;
+}
+h2 {
+  font-family: 'Rudaw-Bold';
+  color:rgb(243, 85, 85);
+  text-align: right;
+  padding-top: 5px;
+  margin-top:5px;
+  font-size: 23px;
+  position: fixed;
+
+}
+.babat article header{
+  text-align: right;
+  text-justify: auto;
+}
+img {
+  height: 17px;
+  width: 170px;
+  margin-top: 50px;
+}
+.babat article {
+  text-align: center;
+  float: center;
+}
